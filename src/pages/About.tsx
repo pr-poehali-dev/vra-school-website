@@ -42,7 +42,7 @@ const About = () => {
               </li>
               <li className="flex items-start">
                 <CheckCircle2 className="mr-2 mt-1 h-4 w-4 text-vra-blue" />
-                <span>Получение премии «Инновации в образовании» в 2022 году</span>
+                <span>Получение премии «Инновации в образовании будущего» в 2033 году</span>
               </li>
               <li className="flex items-start">
                 <CheckCircle2 className="mr-2 mt-1 h-4 w-4 text-vra-blue" />
@@ -90,10 +90,12 @@ const About = () => {
         
         <div className="space-y-8">
           <div className="rounded-2xl overflow-hidden">
-            <div className="relative h-64 w-full bg-vra-blue/20">
-              <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
-                [Изображение кампуса VRA Academy]
-              </div>
+            <div className="relative h-64 w-full">
+              <img 
+                src="/campus.png" 
+                alt="Кампус VRA Academy" 
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
           
@@ -148,8 +150,8 @@ const About = () => {
                   <div className="mt-2 h-full w-0.5 bg-vra-purple/20"></div>
                 </div>
                 <div>
-                  <h3 className="font-semibold">2020</h3>
-                  <p className="text-muted-foreground">Основание VRA Academy и открытие первых экспериментальных классов</p>
+                  <h3 className="font-semibold">2030</h3>
+                  <p className="text-muted-foreground">Основание VRA Academy и открытие первых экспериментальных классов с передовыми VR-технологиями</p>
                 </div>
               </div>
               <div className="flex">
@@ -160,8 +162,8 @@ const About = () => {
                   <div className="mt-2 h-full w-0.5 bg-vra-purple/20"></div>
                 </div>
                 <div>
-                  <h3 className="font-semibold">2021</h3>
-                  <p className="text-muted-foreground">Запуск полного цикла школьного образования с использованием VR-технологий</p>
+                  <h3 className="font-semibold">2032</h3>
+                  <p className="text-muted-foreground">Запуск полного цикла школьного образования с использованием нейроинтерфейсов и VR-технологий</p>
                 </div>
               </div>
               <div className="flex">
@@ -171,8 +173,8 @@ const About = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="font-semibold">2022</h3>
-                  <p className="text-muted-foreground">Начало программ высшего образования и расширение кампуса</p>
+                  <h3 className="font-semibold">2035</h3>
+                  <p className="text-muted-foreground">Начало программ высшего образования и расширение кампуса с интеграцией квантовых вычислений</p>
                 </div>
               </div>
             </div>

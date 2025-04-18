@@ -79,15 +79,15 @@
 
 @layer components {
   .vr-gradient {
-    @apply bg-gradient-to-r from-vra-darkBlue via-vra-blue to-vra-purple;
+    @apply bg-gradient-to-r from-vra-blue via-vra-purple to-vra-pink;
   }
   
   .vr-gradient-text {
-    @apply bg-gradient-to-r from-vra-darkBlue via-vra-blue to-vra-purple bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-vra-blue via-vra-purple to-vra-pink bg-clip-text text-transparent;
   }
   
   .pink-gradient {
-    @apply bg-gradient-to-r from-vra-purple via-vra-blue to-vra-pink;
+    @apply bg-gradient-to-r from-vra-blue via-vra-purple to-vra-pink;
   }
   
   .futuristic-card {

@@ -43,7 +43,7 @@ const HeroSection = () => {
                 <div className="relative h-full w-full">
                   <div className="absolute inset-x-8 inset-y-10 rounded-2xl border border-vra-purple/30 bg-white/10 backdrop-blur-sm"></div>
                   <img 
-                    src="/placeholder.svg" 
+                    src="/main.jpg" 
                     alt="VR шлем" 
                     className="relative z-10 h-full w-full object-contain"
                   />
